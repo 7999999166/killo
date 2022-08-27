@@ -1,10 +1,9 @@
 <script>
   import {count} from '../store.js';
-  $count = 15 ;
 </script>
 
 <div>
-   
+ <input type="text" value={$count}>  
 </div>
 
 <style>
